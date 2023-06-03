@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script>
+      document.addEventListener("click", function click() {
+        console.log("clicked");
+        // alert("hello"); //after clicked over text we get hello as alert
+
+        // let conf = confirm("Are you sure?");  //This is use for for conformation of anything when clicked on
+        // console.log(conf);
+
+        // function myfun1(number) {
+        //   console.log(`The number is ${this}`); //udefined.this will not defined
+        // }
+        // myfun1();
+
+        // const myfun = (number) => {
+        //   console.log(`The number is ${this}`); // object. here this will be defined
+        // };
+        // myfun();
+
+        //callback
+        setTimeout(() => {
+          console.log("yayya");
+        }, 2000);
+
+        console.log("mai neeche wali script hoon");
+        //after 2 sec yayya will print
+
+        
+
+
+      });
+    </script>
+  </head>
+  <body>
+    <h1>I am learning JS</h1>
+  </body>
+</html>
